@@ -582,4 +582,4 @@ public class Gioco extends JFrame {
    dispose(); }
   else {
    setVisible(false);
-   dispose(); } } }
+   dispose(); } } } 
