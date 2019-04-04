@@ -38,14 +38,14 @@ public class Menu extends JFrame {
   
   gioca.addActionListener(new ActionListener() { // Il giocatore clicca il pulsante "Gioca"
    public void actionPerformed(ActionEvent e) {
-	 Gioco gioco = new Gioco();
-	 gioco.setSize(240, 625);
-	 gioco.setResizable(false);
-	 gioco.setVisible(true);
-	 gioco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
-	 setVisible(false);
-	 dispose(); } });
-  
+    Gioco gioco = new Gioco();
+    gioco.setSize(240, 625);
+    gioco.setResizable(false);
+    gioco.setVisible(true);
+    gioco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+    setVisible(false);
+    dispose(); } });
+	
   about.addActionListener(new ActionListener() { // Il giocatore clicca il pulsante "About"
    public void actionPerformed(ActionEvent e) {
     JOptionPane.showMessageDialog(null, "- BENVENUTO A BATTAGLIA NAVALE! -\nClicca le caselle sulla griglia avversaria\nnel tentativo di affondare le sue navi prima che\npossa fare lo stesso contro di te!\n\n>>> Creato da Luca Sannino <<<", "Battaglia Navale - About", JOptionPane.PLAIN_MESSAGE); } });
@@ -53,6 +53,6 @@ public class Menu extends JFrame {
   esci.addActionListener(new ActionListener() { // Il giocatore clicca il pulsante "Esci"
    public void actionPerformed(ActionEvent e) {
     setVisible(false);
-	dispose(); } }); } }
+    dispose(); } }); } }
   
  
