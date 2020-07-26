@@ -3,7 +3,7 @@ A fully playable version of Battleship that I made as a passion project while le
 
 
 <b>Rules:</b><br/>
-Try to guess where the enemy ships are positioned on the grid, before your opponent can do the same with you. No skill is required for this game: just a lot of luck!
+Try to guess where the enemy ships are positioned on the grid, before your opponent can do the same with you. This game is turn based and doens't require any skills, just a lot of luck!
 
 
 <b>Comments:</b><br/>
